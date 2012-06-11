@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>LynxArrayList: version.h源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript">
+$(document).ready(initResizable);
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- 制作者 Doxygen 1.7.4 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+--></script>
+<div id="top">
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">LynxArrayList</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+</div>
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+  initNavTree('version_8h.html','');
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle">
+<div class="title">version.h</div>  </div>
+</div>
+<div class="contents">
+<a href="version_8h.html">浏览该文件的文档。</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="preprocessor">#ifndef VERSION_H</span>
+<a name="l00002"></a>00002 <span class="preprocessor"></span><span class="preprocessor">#define VERSION_H</span>
+<a name="l00003"></a>00003 <span class="preprocessor"></span>
+<a name="l00004"></a>00004         <span class="comment">//Date Version Types</span>
+<a name="l00005"></a><a class="code" href="version_8h.html#af5afeaef242e0d7f8de39b140cd0c7b4">00005</a>         <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span> <a class="code" href="version_8h.html#af5afeaef242e0d7f8de39b140cd0c7b4">DATE</a>[] = <span class="stringliteral">&quot;18&quot;</span>;
+<a name="l00006"></a><a class="code" href="version_8h.html#a6f62397b1e6d16b924ec1907b837da1d">00006</a>         <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span> <a class="code" href="version_8h.html#a6f62397b1e6d16b924ec1907b837da1d">MONTH</a>[] = <span class="stringliteral">&quot;09&quot;</span>;
+<a name="l00007"></a><a class="code" href="version_8h.html#ad1bbd4c47f4333cd6a0970f27ac77a0c">00007</a>         <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span> <a class="code" href="version_8h.html#ad1bbd4c47f4333cd6a0970f27ac77a0c">YEAR</a>[] = <span class="stringliteral">&quot;2011&quot;</span>;
+<a name="l00008"></a><a class="code" href="version_8h.html#a0161f4aac9b7eaed7e709d0b90c50ab7">00008</a>         <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span> <a class="code" href="version_8h.html#a0161f4aac9b7eaed7e709d0b90c50ab7">UBUNTU_VERSION_STYLE</a>[] = <span class="stringliteral">&quot;11.09&quot;</span>;
+<a name="l00009"></a>00009         
+<a name="l00010"></a>00010         <span class="comment">//Software Status</span>
+<a name="l00011"></a><a class="code" href="version_8h.html#ab34af9c61605bcba941d2b631b70b12f">00011</a>         <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span> <a class="code" href="version_8h.html#ab34af9c61605bcba941d2b631b70b12f">STATUS</a>[] = <span class="stringliteral">&quot;Alpha&quot;</span>;
+<a name="l00012"></a><a class="code" href="version_8h.html#a17b33583e38312d7347b7c9f0ded508c">00012</a>         <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span> <a class="code" href="version_8h.html#a17b33583e38312d7347b7c9f0ded508c">STATUS_SHORT</a>[] = <span class="stringliteral">&quot;a&quot;</span>;
+<a name="l00013"></a>00013         
+<a name="l00014"></a>00014         <span class="comment">//Standard Version Type</span>
+<a name="l00015"></a><a class="code" href="version_8h.html#a7d40d5371dc102f540077612a9066acd">00015</a>         <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">long</span> <a class="code" href="version_8h.html#a7d40d5371dc102f540077612a9066acd">MAJOR</a> = 1;
+<a name="l00016"></a><a class="code" href="version_8h.html#a57f7312aa146d14f5604ec9bbe169bce">00016</a>         <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">long</span> <a class="code" href="version_8h.html#a57f7312aa146d14f5604ec9bbe169bce">MINOR</a> = 0;
+<a name="l00017"></a><a class="code" href="version_8h.html#a3e5c7a5cbcef47cda4d0b0ec4c199697">00017</a>         <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">long</span> <a class="code" href="version_8h.html#a3e5c7a5cbcef47cda4d0b0ec4c199697">BUILD</a> = 0;
+<a name="l00018"></a><a class="code" href="version_8h.html#a11b2e7a114b7192ea8a564491c83d32f">00018</a>         <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">long</span> <a class="code" href="version_8h.html#a11b2e7a114b7192ea8a564491c83d32f">REVISION</a> = 0;
+<a name="l00019"></a>00019         
+<a name="l00020"></a>00020         <span class="comment">//Miscellaneous Version Types</span>
+<a name="l00021"></a><a class="code" href="version_8h.html#a61b6922482946e07d1d21fea09ba0941">00021</a>         <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">long</span> <a class="code" href="version_8h.html#a61b6922482946e07d1d21fea09ba0941">BUILDS_COUNT</a> = 0;
+<a name="l00022"></a><a class="code" href="version_8h.html#a0e86d046ea87587e402d375c6b0927c6">00022</a> <span class="preprocessor">        #define RC_FILEVERSION 1,0,0,0</span>
+<a name="l00023"></a><a class="code" href="version_8h.html#a4763e81d3c29ec0fab79225d3ec3f1a2">00023</a> <span class="preprocessor"></span><span class="preprocessor">        #define RC_FILEVERSION_STRING &quot;1, 0, 0, 0\0&quot;</span>
+<a name="l00024"></a><a class="code" href="version_8h.html#aa74b9762dc0de665efce4c807b3a3a30">00024</a> <span class="preprocessor"></span>        <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span> <a class="code" href="version_8h.html#aa74b9762dc0de665efce4c807b3a3a30">FULLVERSION_STRING</a>[] = <span class="stringliteral">&quot;1.0.0.0&quot;</span>;
+<a name="l00025"></a>00025         
+<a name="l00026"></a>00026         <span class="comment">//These values are to keep track of your versioning state, don&#39;t modify them.</span>
+<a name="l00027"></a><a class="code" href="version_8h.html#a8c576921d513513b04e78e5cc8ccd0a4">00027</a>         <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">long</span> <a class="code" href="version_8h.html#a8c576921d513513b04e78e5cc8ccd0a4">BUILD_HISTORY</a> = 3;
+<a name="l00028"></a>00028         
+<a name="l00029"></a>00029 
+<a name="l00030"></a>00030 <span class="preprocessor">#endif //VERSION_H</span>
+</pre></div></div>
+</div>
+  <div id="nav-path" class="navpath">
+    <ul>
+      <li class="navelem"><a class="el" href="version_8h.html">version.h</a>      </li>
+      <li class="footer">Generated at 2011年十月18日 星期二 19:40:11 for LynxArrayList by&#160;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.4 </li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>宏定义</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+
+</body>
+</html>

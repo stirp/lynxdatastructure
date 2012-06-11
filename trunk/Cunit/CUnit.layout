@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Win32 Release" />
+	<File name="Headers\CUnit.h" open="0" top="0" tabpos="0">
+		<Cursor position="2905" topLine="84" />
+	</File>
+	<File name="Sources\Automated\Automated.c" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="36" />
+	</File>
+	<File name="Sources\Basic\Basic.c" open="0" top="0" tabpos="0">
+		<Cursor position="885" topLine="0" />
+	</File>
+	<File name="Sources\Framework\CUError.c" open="0" top="0" tabpos="0">
+		<Cursor position="3040" topLine="67" />
+	</File>
+	<File name="Sources\Framework\TestDB.c" open="0" top="0" tabpos="0">
+		<Cursor position="14218" topLine="362" />
+	</File>
+	<File name="Sources\Framework\Util.c" open="0" top="0" tabpos="0">
+		<Cursor position="1600" topLine="39" />
+	</File>
+</CodeBlocks_layout_file>

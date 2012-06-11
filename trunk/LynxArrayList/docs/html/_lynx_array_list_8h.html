@@ -1,0 +1,812 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>LynxArrayList: LynxArrayList.h文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript">
+$(document).ready(initResizable);
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- 制作者 Doxygen 1.7.4 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+--></script>
+<div id="top">
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">LynxArrayList</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+</div>
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+  initNavTree('_lynx_array_list_8h.html','');
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">组合类型</a> &#124;
+<a href="#typedef-members">类型定义</a> &#124;
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">LynxArrayList.h文件参考</div>  </div>
+</div>
+<div class="contents">
+
+<p>Lynx的数组线性表<br/>
+ 编写日期： 2011年10月5日<br/>
+ 作者： 尚壬鹏<br/>
+.  
+<a href="#details">更多...</a></p>
+<div class="textblock"><code>#include &quot;Common.h&quot;</code><br/>
+<code>#include &lt;stdio.h&gt;</code><br/>
+</div>
+<p><a href="_lynx_array_list_8h_source.html">浏览该文件的源代码。</a></p>
+<table class="memberdecls">
+<tr><td colspan="2"><h2><a name="nested-classes"></a>
+组合类型</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_____lynx_array_list.html">__LynxArrayList</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">定义了LynxArrayList的数据结构 用户不应该直接操作这个结构体  <a href="struct_____lynx_array_list.html#details">更多...</a><br/></td></tr>
+<tr><td colspan="2"><h2><a name="typedef-members"></a>
+类型定义</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="struct_____lynx_array_list.html">__LynxArrayList</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_lynx_array_list_8h.html#a8110647d15eb54cefe381370322b81ac">LynxArrayList</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">将指向数据结构的指针定义为LynxArrayList类型。 这样定以后使用者的使用方式将大大轻松  <a href="#a8110647d15eb54cefe381370322b81ac"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_lynx_array_list_8h.html#a67db0e76742fe6251eb045ef112f0a6e">tLynxArrayListInit</a> )(<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> *myArrayList, long increaseStep)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">定义了LynxArrayListInit的类型，方便函数指针转换  <a href="#a67db0e76742fe6251eb045ef112f0a6e"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_lynx_array_list_8h.html#a079d81270a89c1108e0c46c666e0b6c9">tLynxArrayListDestroy</a> )(<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList, BOOL(*freeElement)(void *elem))</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">定义了LynxArrayListDestroy的类型，方便函数指针转换  <a href="#a079d81270a89c1108e0c46c666e0b6c9"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_lynx_array_list_8h.html#a05573c80a7f82dd7fcaf1185d3b43316">tLynxArrayListClear</a> )(<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList, BOOL(*freeElement)(void *elem))</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">typedef long(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_lynx_array_list_8h.html#a853b43e603b48f3cd6b72ae9e1097f83">tLynxArrayListLength</a> )(<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">定义了LynxArrayListLength的类型，方便函数指针转换  <a href="#a853b43e603b48f3cd6b72ae9e1097f83"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">typedef BOOL(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_lynx_array_list_8h.html#abc9ed21abf2a6c0ec41e85d2bdb91953">tLynxArrayListIsEmpty</a> )(<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">定义了LynxArrayListIsEmpty的类型，方便函数指针转换  <a href="#abc9ed21abf2a6c0ec41e85d2bdb91953"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">typedef void *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_lynx_array_list_8h.html#affec4652b8b6679126cf441f03fd1dd1">tLynxArrayListGetElem</a> )(<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList, long position)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">typedef long(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_lynx_array_list_8h.html#a5d697a5c0e926a2b8281dd01eafc0290">tLynxArrayListLocateElem</a> )(<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList, void *elem, BOOL(*compare)(void *elema, void *elemb))</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">定义了LynxArrayListLocateElem的类型，方便函数指针转换  <a href="#a5d697a5c0e926a2b8281dd01eafc0290"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">typedef BOOL(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_lynx_array_list_8h.html#ad7bea242da794b620880ca39eaa0cd9f">tLynxArrayListInsert</a> )(<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList, long position, void *elem)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">定义了LynxArrayListInsert的类型，方便函数指针转换  <a href="#ad7bea242da794b620880ca39eaa0cd9f"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">typedef void *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_lynx_array_list_8h.html#a8c460256d862bf2f81f487a01f832b8d">tLynxArrayListGetAndDelete</a> )(<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList, long position)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">定义了LynxArrayListGetAndDelete的类型，方便函数指针转换  <a href="#a8c460256d862bf2f81f487a01f832b8d"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">typedef long(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_lynx_array_list_8h.html#a3d2beed18783ff1dd89891c84aa9e71b">tLynxArrayListTraverse</a> )(<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList, void(*visit)(void *returns))</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">定义了LynxArrayListTraverse的类型，方便函数指针转换  <a href="#a3d2beed18783ff1dd89891c84aa9e71b"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_lynx_array_list_8h.html#ac0a79697c012473ad21df0b5a6e84bf9">tLynxArrayListQsort</a> )(<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList, BOOL(*compare)(void *elema, void *elemb))</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">定义了LynxArrayListQsort的类型，方便函数指针转换  <a href="#ac0a79697c012473ad21df0b5a6e84bf9"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">typedef void *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_lynx_array_list_8h.html#ab88de682cd3ee09d8311c8528f69b00a">tLynxArrayListBsearch</a> )(<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList, BOOL(*compare)(void *elema, void *elemb))</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">定义了LynxArrayListBsearch的类型，方便函数指针转换  <a href="#ab88de682cd3ee09d8311c8528f69b00a"></a><br/></td></tr>
+<tr><td colspan="2"><h2><a name="func-members"></a>
+函数</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_lynx_array_list_8h.html#abb2791237d5eb71b50be10fa907f17dc">LynxArrayListInit</a> (<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> *myArrayList, long increaseStep)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">初始化一个数组线性表的指针，如果该指针原本指向一 处保留的数据，将失去对该数据的指向。  <a href="#abb2791237d5eb71b50be10fa907f17dc"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_lynx_array_list_8h.html#a6769bd936e9ca94371221a641f8701a2">LynxArrayListDestroy</a> (<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList, BOOL(*freeElement)(void *elem))</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">删除一个数组线性表指针指向的数据结构，存储的元素将使 用freeElement函数释放掉空间。  <a href="#a6769bd936e9ca94371221a641f8701a2"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_lynx_array_list_8h.html#a7af9ec74990ac7aae81348796505d0e8">LynxArrayListClear</a> (<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList, BOOL(*freeElement)(void *elem))</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">清空一个数组线性表指针中的元素。存储的元素将使用 freeElement函数释放掉空间。  <a href="#a7af9ec74990ac7aae81348796505d0e8"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_lynx_array_list_8h.html#ae18ab15f156110c7abc40570ba168ce8">LynxArrayListLength</a> (<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">获得整个线性表的长度  <a href="#ae18ab15f156110c7abc40570ba168ce8"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_lynx_array_list_8h.html#a7c995eee8178c96bde4978279362dc77">LynxArrayListIsEmpty</a> (<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">判断数组线性表是否为空  <a href="#a7c995eee8178c96bde4978279362dc77"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_lynx_array_list_8h.html#a53fcb4f5bd9ee9741bd48f01a852d821">LynxArrayListGetElem</a> (<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList, long position)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">从数组线性表中获得第position个元素  <a href="#a53fcb4f5bd9ee9741bd48f01a852d821"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_lynx_array_list_8h.html#a4b8af1965ee049477d92068d23dfdfe9">LynxArrayListLocateElem</a> (<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList, void *elem, BOOL(*compare)(void *elema, void *elemb))</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">根据elem的值，定位与elem相等的元素在线性表的位置。  <a href="#a4b8af1965ee049477d92068d23dfdfe9"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_lynx_array_list_8h.html#a24026c1470e4db9522343fee9178884c">LynxArrayListInsert</a> (<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList, long position, void *elem)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">在数组线性表的第position的位置插入一个元素  <a href="#a24026c1470e4db9522343fee9178884c"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_lynx_array_list_8h.html#aa3eb80a645db303b214bc077475b6308">LynxArrayListGetAndDelete</a> (<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList, long position)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens a file descriptor.  <a href="#aa3eb80a645db303b214bc077475b6308"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_lynx_array_list_8h.html#a38b65e20ee941b74801e9f06db771bf9">LynxArrayListTraverse</a> (<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList, void(*visit)(void *returns))</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">对整个数组的所有元素调用visit函数访问  <a href="#a38b65e20ee941b74801e9f06db771bf9"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_lynx_array_list_8h.html#a26152a1cf294112a5ca439f1b371a663">LynxArrayListQsort</a> (<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList, BOOL(*compare)(void *elema, void *elemb))</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">对整个数组的所有元素进行快速排序  <a href="#a26152a1cf294112a5ca439f1b371a663"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_lynx_array_list_8h.html#ab44faf6c268d3c23286413380c62b499">LynxArrayListBsearch</a> (<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList, BOOL(*compare)(void *elema, void *elemb))</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">对整个数组的所有元素进行二分查找。之前必须排序  <a href="#ab44faf6c268d3c23286413380c62b499"></a><br/></td></tr>
+</table>
+<hr/><a name="details" id="details"></a><h2>详细描述</h2>
+<div class="textblock"><p>Lynx的数组线性表<br/>
+ 编写日期： 2011年10月5日<br/>
+ 作者： 尚壬鹏<br/>
+. </p>
+</div><hr/><h2>类型定义文档</h2>
+<a class="anchor" id="a8110647d15eb54cefe381370322b81ac"></a><!-- doxytag: member="LynxArrayList.h::LynxArrayList" ref="a8110647d15eb54cefe381370322b81ac" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="struct_____lynx_array_list.html">__LynxArrayList</a> * <a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>将指向数据结构的指针定义为LynxArrayList类型。 这样定以后使用者的使用方式将大大轻松 </p>
+<dl class="warning"><dt><b>警告:</b></dt><dd>不要忘记使用LynxArrayListInit初始化 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ab88de682cd3ee09d8311c8528f69b00a"></a><!-- doxytag: member="LynxArrayList.h::tLynxArrayListBsearch" ref="ab88de682cd3ee09d8311c8528f69b00a" args=")(LynxArrayList myArrayList, BOOL(*compare)(void *elema, void *elemb))" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void *(* <a class="el" href="_lynx_array_list_8h.html#ab88de682cd3ee09d8311c8528f69b00a">tLynxArrayListBsearch</a>)(<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList, BOOL(*compare)(void *elema,void *elemb))</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>定义了LynxArrayListBsearch的类型，方便函数指针转换 </p>
+
+</div>
+</div>
+<a class="anchor" id="a05573c80a7f82dd7fcaf1185d3b43316"></a><!-- doxytag: member="LynxArrayList.h::tLynxArrayListClear" ref="a05573c80a7f82dd7fcaf1185d3b43316" args=")(LynxArrayList myArrayList, BOOL(*freeElement)(void *elem))" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(* <a class="el" href="_lynx_array_list_8h.html#a05573c80a7f82dd7fcaf1185d3b43316">tLynxArrayListClear</a>)(<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList, BOOL(*freeElement)(void *elem))</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a079d81270a89c1108e0c46c666e0b6c9"></a><!-- doxytag: member="LynxArrayList.h::tLynxArrayListDestroy" ref="a079d81270a89c1108e0c46c666e0b6c9" args=")(LynxArrayList myArrayList, BOOL(*freeElement)(void *elem))" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(* <a class="el" href="_lynx_array_list_8h.html#a079d81270a89c1108e0c46c666e0b6c9">tLynxArrayListDestroy</a>)(<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList, BOOL(*freeElement)(void *elem))</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>定义了LynxArrayListDestroy的类型，方便函数指针转换 </p>
+
+</div>
+</div>
+<a class="anchor" id="a8c460256d862bf2f81f487a01f832b8d"></a><!-- doxytag: member="LynxArrayList.h::tLynxArrayListGetAndDelete" ref="a8c460256d862bf2f81f487a01f832b8d" args=")(LynxArrayList myArrayList, long position)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void *(* <a class="el" href="_lynx_array_list_8h.html#a8c460256d862bf2f81f487a01f832b8d">tLynxArrayListGetAndDelete</a>)(<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList, long position)</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>定义了LynxArrayListGetAndDelete的类型，方便函数指针转换 </p>
+
+</div>
+</div>
+<a class="anchor" id="affec4652b8b6679126cf441f03fd1dd1"></a><!-- doxytag: member="LynxArrayList.h::tLynxArrayListGetElem" ref="affec4652b8b6679126cf441f03fd1dd1" args=")(LynxArrayList myArrayList, long position)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void*(* <a class="el" href="_lynx_array_list_8h.html#affec4652b8b6679126cf441f03fd1dd1">tLynxArrayListGetElem</a>)(<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList, long position)</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a67db0e76742fe6251eb045ef112f0a6e"></a><!-- doxytag: member="LynxArrayList.h::tLynxArrayListInit" ref="a67db0e76742fe6251eb045ef112f0a6e" args=")(LynxArrayList *myArrayList, long increaseStep)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* <a class="el" href="_lynx_array_list_8h.html#a67db0e76742fe6251eb045ef112f0a6e">tLynxArrayListInit</a>)(LynxArrayListmyArrayList, long increaseStep)</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>定义了LynxArrayListInit的类型，方便函数指针转换 </p>
+
+</div>
+</div>
+<a class="anchor" id="ad7bea242da794b620880ca39eaa0cd9f"></a><!-- doxytag: member="LynxArrayList.h::tLynxArrayListInsert" ref="ad7bea242da794b620880ca39eaa0cd9f" args=")(LynxArrayList myArrayList, long position, void *elem)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef BOOL(* <a class="el" href="_lynx_array_list_8h.html#ad7bea242da794b620880ca39eaa0cd9f">tLynxArrayListInsert</a>)(<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList, long position, void *elem)</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>定义了LynxArrayListInsert的类型，方便函数指针转换 </p>
+
+</div>
+</div>
+<a class="anchor" id="abc9ed21abf2a6c0ec41e85d2bdb91953"></a><!-- doxytag: member="LynxArrayList.h::tLynxArrayListIsEmpty" ref="abc9ed21abf2a6c0ec41e85d2bdb91953" args=")(LynxArrayList myArrayList)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef BOOL(* <a class="el" href="_lynx_array_list_8h.html#abc9ed21abf2a6c0ec41e85d2bdb91953">tLynxArrayListIsEmpty</a>)(<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList)</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>定义了LynxArrayListIsEmpty的类型，方便函数指针转换 </p>
+
+</div>
+</div>
+<a class="anchor" id="a853b43e603b48f3cd6b72ae9e1097f83"></a><!-- doxytag: member="LynxArrayList.h::tLynxArrayListLength" ref="a853b43e603b48f3cd6b72ae9e1097f83" args=")(LynxArrayList myArrayList)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef long(* <a class="el" href="_lynx_array_list_8h.html#a853b43e603b48f3cd6b72ae9e1097f83">tLynxArrayListLength</a>)(<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList)</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>定义了LynxArrayListLength的类型，方便函数指针转换 </p>
+
+</div>
+</div>
+<a class="anchor" id="a5d697a5c0e926a2b8281dd01eafc0290"></a><!-- doxytag: member="LynxArrayList.h::tLynxArrayListLocateElem" ref="a5d697a5c0e926a2b8281dd01eafc0290" args=")(LynxArrayList myArrayList, void *elem, BOOL(*compare)(void *elema, void *elemb))" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef long(* <a class="el" href="_lynx_array_list_8h.html#a5d697a5c0e926a2b8281dd01eafc0290">tLynxArrayListLocateElem</a>)(<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList, void *elem, BOOL(*compare)(void *elema,void *elemb))</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>定义了LynxArrayListLocateElem的类型，方便函数指针转换 </p>
+
+</div>
+</div>
+<a class="anchor" id="ac0a79697c012473ad21df0b5a6e84bf9"></a><!-- doxytag: member="LynxArrayList.h::tLynxArrayListQsort" ref="ac0a79697c012473ad21df0b5a6e84bf9" args=")(LynxArrayList myArrayList, BOOL(*compare)(void *elema, void *elemb))" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(* <a class="el" href="_lynx_array_list_8h.html#ac0a79697c012473ad21df0b5a6e84bf9">tLynxArrayListQsort</a>)(<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList, BOOL(*compare)(void *elema,void *elemb))</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>定义了LynxArrayListQsort的类型，方便函数指针转换 </p>
+
+</div>
+</div>
+<a class="anchor" id="a3d2beed18783ff1dd89891c84aa9e71b"></a><!-- doxytag: member="LynxArrayList.h::tLynxArrayListTraverse" ref="a3d2beed18783ff1dd89891c84aa9e71b" args=")(LynxArrayList myArrayList, void(*visit)(void *returns))" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef long(* <a class="el" href="_lynx_array_list_8h.html#a3d2beed18783ff1dd89891c84aa9e71b">tLynxArrayListTraverse</a>)(<a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> myArrayList, void(*visit)(void *returns))</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>定义了LynxArrayListTraverse的类型，方便函数指针转换 </p>
+
+</div>
+</div>
+<hr/><h2>函数文档</h2>
+<a class="anchor" id="ab44faf6c268d3c23286413380c62b499"></a><!-- doxytag: member="LynxArrayList.h::LynxArrayListBsearch" ref="ab44faf6c268d3c23286413380c62b499" args="(LynxArrayList myArrayList, BOOL(*compare)(void *elema, void *elemb))" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void * LynxArrayListBsearch </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a>&#160;</td>
+          <td class="paramname"><em>myArrayList</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">BOOL(*)(void *elema, void *elemb)&#160;</td>
+          <td class="paramname"><em>compare</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>对整个数组的所有元素进行二分查找。之前必须排序 </p>
+<dl><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">myArrayList</td><td>LynxArrayList指针，该指针应当为有效的指针。 </td></tr>
+    <tr><td class="paramname">compare</td><td>compare函数，由用户编写并传入 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>返回:</b></dt><dd>返回搜索的元素的指针。如果没有找到，返回NULL。 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a7af9ec74990ac7aae81348796505d0e8"></a><!-- doxytag: member="LynxArrayList.h::LynxArrayListClear" ref="a7af9ec74990ac7aae81348796505d0e8" args="(LynxArrayList myArrayList, BOOL(*freeElement)(void *elem))" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LynxArrayListClear </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a>&#160;</td>
+          <td class="paramname"><em>myArrayList</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">BOOL(*)(void *elem)&#160;</td>
+          <td class="paramname"><em>freeElement</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>清空一个数组线性表指针中的元素。存储的元素将使用 freeElement函数释放掉空间。 </p>
+<dl><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">myArrayList</td><td>LynxArrayList指针，该指针应当为有效的指针。 </td></tr>
+    <tr><td class="paramname">freeElement</td><td>用于释放单个元素的函数，用户编写后传入 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a6769bd936e9ca94371221a641f8701a2"></a><!-- doxytag: member="LynxArrayList.h::LynxArrayListDestroy" ref="a6769bd936e9ca94371221a641f8701a2" args="(LynxArrayList myArrayList, BOOL(*freeElement)(void *elem))" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LynxArrayListDestroy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a>&#160;</td>
+          <td class="paramname"><em>myArrayList</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">BOOL(*)(void *elem)&#160;</td>
+          <td class="paramname"><em>freeElement</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>删除一个数组线性表指针指向的数据结构，存储的元素将使 用freeElement函数释放掉空间。 </p>
+<dl><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">myArrayList</td><td>LynxArrayList指针，该指针应当为有效的指针。 </td></tr>
+    <tr><td class="paramname">freeElement</td><td>用于释放单个元素的函数，用户编写后传入 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aa3eb80a645db303b214bc077475b6308"></a><!-- doxytag: member="LynxArrayList.h::LynxArrayListGetAndDelete" ref="aa3eb80a645db303b214bc077475b6308" args="(LynxArrayList myArrayList, long position)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void * LynxArrayListGetAndDelete </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a>&#160;</td>
+          <td class="paramname"><em>myArrayList</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>position</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Opens a file descriptor. </p>
+<dl><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">myArrayList</td><td>LynxArrayList指针，该指针应当为有效的指针。 </td></tr>
+    <tr><td class="paramname">position</td><td>数组的第i个位置 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>返回:</b></dt><dd>如果元素存在，则返回第position个元素的地址；否则返回 NULL </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a53fcb4f5bd9ee9741bd48f01a852d821"></a><!-- doxytag: member="LynxArrayList.h::LynxArrayListGetElem" ref="a53fcb4f5bd9ee9741bd48f01a852d821" args="(LynxArrayList myArrayList, long position)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void * LynxArrayListGetElem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a>&#160;</td>
+          <td class="paramname"><em>myArrayList</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>position</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>从数组线性表中获得第position个元素 </p>
+<dl><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">myArrayList</td><td>LynxArrayList指针，该指针应当为有效的指针。 </td></tr>
+    <tr><td class="paramname">position</td><td>第position个元素 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>返回:</b></dt><dd>如果存在第position个元素，则返回指向第position个元素 的指针；否则返回NULL指针 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="abb2791237d5eb71b50be10fa907f17dc"></a><!-- doxytag: member="LynxArrayList.h::LynxArrayListInit" ref="abb2791237d5eb71b50be10fa907f17dc" args="(LynxArrayList *myArrayList, long increaseStep)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LynxArrayListInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a> *&#160;</td>
+          <td class="paramname"><em>myArrayList</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>increaseStep</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>初始化一个数组线性表的指针，如果该指针原本指向一 处保留的数据，将失去对该数据的指向。 </p>
+<dl><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">myArrayList</td><td>LynxArrayList指针，该指针应当为无效的指针。 存储空间将自动分配。 </td></tr>
+    <tr><td class="paramname">increaseStep</td><td>每次分配的数组空间不够用时， 增加increaseStep个存储单元。单独提出这个参数是由于处 理的数据规模不同，为了尽量减少重新分配空间的次数。 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a24026c1470e4db9522343fee9178884c"></a><!-- doxytag: member="LynxArrayList.h::LynxArrayListInsert" ref="a24026c1470e4db9522343fee9178884c" args="(LynxArrayList myArrayList, long position, void *elem)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BOOL LynxArrayListInsert </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a>&#160;</td>
+          <td class="paramname"><em>myArrayList</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>elem</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>在数组线性表的第position的位置插入一个元素 </p>
+<dl><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">myArrayList</td><td>LynxArrayList指针，该指针应当为有效的指针。 </td></tr>
+    <tr><td class="paramname">position</td><td>打算插入元素的位置 </td></tr>
+    <tr><td class="paramname">elem</td><td>插入的元素 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>返回:</b></dt><dd>如果插入成功，则返回TRUE；否则返回FALSE </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a7c995eee8178c96bde4978279362dc77"></a><!-- doxytag: member="LynxArrayList.h::LynxArrayListIsEmpty" ref="a7c995eee8178c96bde4978279362dc77" args="(LynxArrayList myArrayList)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BOOL LynxArrayListIsEmpty </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a>&#160;</td>
+          <td class="paramname"><em>myArrayList</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>判断数组线性表是否为空 </p>
+<dl><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">myArrayList</td><td>LynxArrayList指针，该指针应当为有效的指针。 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>返回:</b></dt><dd>如果数组线性表是空，则返回TRUE；否则返回FALSE </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ae18ab15f156110c7abc40570ba168ce8"></a><!-- doxytag: member="LynxArrayList.h::LynxArrayListLength" ref="ae18ab15f156110c7abc40570ba168ce8" args="(LynxArrayList myArrayList)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long LynxArrayListLength </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a>&#160;</td>
+          <td class="paramname"><em>myArrayList</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>获得整个线性表的长度 </p>
+<dl><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">myArrayList</td><td>LynxArrayList指针，该指针应当为有效的指针。 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>返回:</b></dt><dd>返回整个线性表的长度 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a4b8af1965ee049477d92068d23dfdfe9"></a><!-- doxytag: member="LynxArrayList.h::LynxArrayListLocateElem" ref="a4b8af1965ee049477d92068d23dfdfe9" args="(LynxArrayList myArrayList, void *elem, BOOL(*compare)(void *elema, void *elemb))" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long LynxArrayListLocateElem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a>&#160;</td>
+          <td class="paramname"><em>myArrayList</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>elem</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">BOOL(*)(void *elema, void *elemb)&#160;</td>
+          <td class="paramname"><em>compare</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>根据elem的值，定位与elem相等的元素在线性表的位置。 </p>
+<dl><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">myArrayList</td><td>LynxArrayList指针，该指针应当为有效的指针。 </td></tr>
+    <tr><td class="paramname">elem</td><td>用户提供的元素 </td></tr>
+    <tr><td class="paramname">compare</td><td>该函数由用户编写后传入，用于比较两个元素是否 相等的函数 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>返回:</b></dt><dd>返回元素在数组的位置。如果不存在，则返回-1 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a26152a1cf294112a5ca439f1b371a663"></a><!-- doxytag: member="LynxArrayList.h::LynxArrayListQsort" ref="a26152a1cf294112a5ca439f1b371a663" args="(LynxArrayList myArrayList, BOOL(*compare)(void *elema, void *elemb))" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LynxArrayListQsort </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a>&#160;</td>
+          <td class="paramname"><em>myArrayList</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">BOOL(*)(void *elema, void *elemb)&#160;</td>
+          <td class="paramname"><em>compare</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>对整个数组的所有元素进行快速排序 </p>
+<dl><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">myArrayList</td><td>LynxArrayList指针，该指针应当为有效的指针。 </td></tr>
+    <tr><td class="paramname">compare</td><td>compare函数，由用户编写并传入 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a38b65e20ee941b74801e9f06db771bf9"></a><!-- doxytag: member="LynxArrayList.h::LynxArrayListTraverse" ref="a38b65e20ee941b74801e9f06db771bf9" args="(LynxArrayList myArrayList, void(*visit)(void *returns))" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long LynxArrayListTraverse </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____lynx_array_list.html">LynxArrayList</a>&#160;</td>
+          <td class="paramname"><em>myArrayList</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(*)(void *returns)&#160;</td>
+          <td class="paramname"><em>visit</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>对整个数组的所有元素调用visit函数访问 </p>
+<dl><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">myArrayList</td><td>LynxArrayList指针，该指针应当为有效的指针。 </td></tr>
+    <tr><td class="paramname">visit</td><td>visit函数，由用户编写并传入 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>返回:</b></dt><dd>返回访问的元素个数 </dd></dl>
+
+</div>
+</div>
+</div>
+</div>
+  <div id="nav-path" class="navpath">
+    <ul>
+      <li class="navelem"><a class="el" href="_lynx_array_list_8h.html">LynxArrayList.h</a>      </li>
+      <li class="footer">Generated at 2011年十月18日 星期二 19:40:11 for LynxArrayList by&#160;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.4 </li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>宏定义</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+
+</body>
+</html>

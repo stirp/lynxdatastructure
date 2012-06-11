@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1320023682 source:d:\onthegoing\lynxdatastructure\lynxtest\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"LynxArrayList.h"
+	"Console.h"
+	"Tests.h"
+
+1320904920 d:\onthegoing\lynxdatastructure\lynxtest\lynxarraylist.h
+	<windows.h>
+	"Common.h"
+	<stdio.h>
+
+1316316482 d:\onthegoing\lynxdatastructure\lynxtest\lynxarraylist2.h
+
+1317963554 d:\onthegoing\lynxdatastructure\lynxtest\common.h
+
+1319968454 source:d:\onthegoing\lynxdatastructure\lynxtest\lynxarraylist.c
+	"LynxArrayList.h"
+
+1138546106 d:\onthegoing\lynxdatastructure\cunit\headers\console.h
+	"CUnit.h"
+	"TestDB.h"
+
+1142857846 d:\onthegoing\lynxdatastructure\cunit\headers\cunit.h
+	<string.h>
+	<math.h>
+	"CUError.h"
+	"TestDB.h"
+	"TestRun.h"
+
+1138546106 d:\onthegoing\lynxdatastructure\cunit\headers\cuerror.h
+	<errno.h>
+	"CUnit.h"
+
+1138546106 d:\onthegoing\lynxdatastructure\cunit\headers\testdb.h
+	<setjmp.h>
+	"CUnit.h"
+	"CUError.h"
+
+1138546106 d:\onthegoing\lynxdatastructure\cunit\headers\testrun.h
+	"CUnit.h"
+	"CUError.h"
+	"TestDB.h"
+
+1138546436 d:\onthegoing\lynxdatastructure\lynxtest\tests.h
+
+1320887644 source:d:\onthegoing\lynxdatastructure\lynxtest\test.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<windows.h>
+	"ArrayListTest.h"
+	"CUnit.h"
+
+1320886556 d:\onthegoing\lynxdatastructure\lynxtest\arraylisttest.h
+
+1320905320 source:d:\onthegoing\lynxdatastructure\lynxtest\arraylisttest.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<windows.h>
+	"LynxArrayList.h"
+	"CUnit.h"
+

@@ -1,0 +1,261 @@
+# depslib dependency file v1.0
+1138546106 source:d:\engineering\cunit\cunit\sources\basic\basic.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<assert.h>
+	<string.h>
+	"CUnit.h"
+	"TestDB.h"
+	"Util.h"
+	"TestRun.h"
+	"Basic.h"
+
+1142857846 d:\engineering\cunit\cunit\headers\cunit.h
+	<string.h>
+	<math.h>
+	"CUError.h"
+	"TestDB.h"
+	"TestRun.h"
+
+1138546106 d:\engineering\cunit\cunit\headers\cuerror.h
+	<errno.h>
+	"CUnit.h"
+
+1138546106 d:\engineering\cunit\cunit\headers\testdb.h
+	<setjmp.h>
+	"CUnit.h"
+	"CUError.h"
+
+1138546106 d:\engineering\cunit\cunit\headers\testrun.h
+	"CUnit.h"
+	"CUError.h"
+	"TestDB.h"
+
+1138546106 d:\engineering\cunit\cunit\headers\util.h
+	"CUnit.h"
+
+1138546106 d:\engineering\cunit\cunit\headers\basic.h
+	"CUnit.h"
+	"TestDB.h"
+
+1142857854 source:d:\engineering\cunit\cunit\sources\console\console.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<assert.h>
+	<string.h>
+	"CUnit.h"
+	"TestDB.h"
+	"Util.h"
+	"TestRun.h"
+	"Console.h"
+
+1138546106 d:\engineering\cunit\cunit\headers\console.h
+	"CUnit.h"
+	"TestDB.h"
+
+1138546354 source:d:\engineering\cunit\cunit\sources\framework\cuerror.c
+	<stdio.h>
+	<stdlib.h>
+	"CUError.h"
+	"test_cunit.h"
+
+1138546354 source:d:\engineering\cunit\cunit\sources\framework\mymem.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<errno.h>
+	<assert.h>
+	<string.h>
+	<time.h>
+	"CUnit.h"
+	"MyMem.h"
+	"test_cunit.h"
+
+1138546106 d:\engineering\cunit\cunit\headers\mymem.h
+
+1142857854 source:d:\engineering\cunit\cunit\sources\framework\testdb.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<stdarg.h>
+	"CUnit.h"
+	"MyMem.h"
+	"TestDB.h"
+	"TestRun.h"
+	"Util.h"
+	"test_cunit.h"
+
+1138546354 source:d:\engineering\cunit\cunit\sources\framework\testrun.c
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<stdio.h>
+	<setjmp.h>
+	"CUnit.h"
+	"MyMem.h"
+	"TestDB.h"
+	"TestRun.h"
+	"test_cunit.h"
+
+1138546354 source:d:\engineering\cunit\cunit\sources\framework\util.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<assert.h>
+	<string.h>
+	"CUnit.h"
+	"TestDB.h"
+	"Util.h"
+	"test_cunit.h"
+
+1138546106 source:d:\engineering\cunit\cunit\sources\automated\automated.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<assert.h>
+	<string.h>
+	<limits.h>
+	<time.h>
+	"CUnit.h"
+	"TestDB.h"
+	"Util.h"
+	"TestRun.h"
+	"Automated.h"
+
+1138546106 d:\engineering\cunit\cunit\headers\automated.h
+	"CUnit.h"
+	"TestDB.h"
+
+1318985396 source:d:\onthegoing\lynxdatastructure\cunit\sources\basic\basic.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<assert.h>
+	<string.h>
+	"CUnit.h"
+	"TestDB.h"
+	"Util.h"
+	"TestRun.h"
+	"Basic.h"
+
+1142857846 d:\onthegoing\lynxdatastructure\cunit\headers\cunit.h
+	<string.h>
+	<math.h>
+	"CUError.h"
+	"TestDB.h"
+	"TestRun.h"
+
+1138546106 d:\onthegoing\lynxdatastructure\cunit\headers\cuerror.h
+	<errno.h>
+	"CUnit.h"
+
+1138546106 d:\onthegoing\lynxdatastructure\cunit\headers\testdb.h
+	<setjmp.h>
+	"CUnit.h"
+	"CUError.h"
+
+1138546106 d:\onthegoing\lynxdatastructure\cunit\headers\testrun.h
+	"CUnit.h"
+	"CUError.h"
+	"TestDB.h"
+
+1138546106 d:\onthegoing\lynxdatastructure\cunit\headers\util.h
+	"CUnit.h"
+
+1138546106 d:\onthegoing\lynxdatastructure\cunit\headers\basic.h
+	"CUnit.h"
+	"TestDB.h"
+
+1142857854 source:d:\onthegoing\lynxdatastructure\cunit\sources\console\console.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<assert.h>
+	<string.h>
+	"CUnit.h"
+	"TestDB.h"
+	"Util.h"
+	"TestRun.h"
+	"Console.h"
+
+1138546106 d:\onthegoing\lynxdatastructure\cunit\headers\console.h
+	"CUnit.h"
+	"TestDB.h"
+
+1138546354 source:d:\onthegoing\lynxdatastructure\cunit\sources\framework\cuerror.c
+	<stdio.h>
+	<stdlib.h>
+	"CUError.h"
+	"test_cunit.h"
+
+1138546354 source:d:\onthegoing\lynxdatastructure\cunit\sources\framework\mymem.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<errno.h>
+	<assert.h>
+	<string.h>
+	<time.h>
+	"CUnit.h"
+	"MyMem.h"
+	"test_cunit.h"
+
+1138546106 d:\onthegoing\lynxdatastructure\cunit\headers\mymem.h
+
+1142857854 source:d:\onthegoing\lynxdatastructure\cunit\sources\framework\testdb.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<stdarg.h>
+	"CUnit.h"
+	"MyMem.h"
+	"TestDB.h"
+	"TestRun.h"
+	"Util.h"
+	"test_cunit.h"
+
+1138546354 source:d:\onthegoing\lynxdatastructure\cunit\sources\framework\testrun.c
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<stdio.h>
+	<setjmp.h>
+	"CUnit.h"
+	"MyMem.h"
+	"TestDB.h"
+	"TestRun.h"
+	"test_cunit.h"
+
+1138546354 source:d:\onthegoing\lynxdatastructure\cunit\sources\framework\util.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<assert.h>
+	<string.h>
+	"CUnit.h"
+	"TestDB.h"
+	"Util.h"
+	"test_cunit.h"
+
+1138546106 source:d:\onthegoing\lynxdatastructure\cunit\sources\automated\automated.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<assert.h>
+	<string.h>
+	<limits.h>
+	<time.h>
+	"CUnit.h"
+	"TestDB.h"
+	"Util.h"
+	"TestRun.h"
+	"Automated.h"
+
+1138546106 d:\onthegoing\lynxdatastructure\cunit\headers\automated.h
+	"CUnit.h"
+	"TestDB.h"
+
