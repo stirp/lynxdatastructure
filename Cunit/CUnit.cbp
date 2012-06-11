@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CUnit" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Win32 Release">
+				<Option output="D:\Engineering\CUnit\CUnit\libCUnit" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Temp" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-O2" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_MBCS" />
+					<Add option="-D_LIB" />
+					<Add option="-D_DELAYTEST" />
+					<Add directory=".\Headers" />
+				</Compiler>
+			</Target>
+			<Target title="Win32 Debug">
+				<Option output="D:\Engineering\CUnit\CUnit\libCUnit" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Temp" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-g" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_MBCS" />
+					<Add option="-D_LIB" />
+					<Add option="-DVERSION=1.0.6B" />
+					<Add option="-D_DELAYTEST" />
+					<Add option="-DMEMTRACE" />
+					<Add directory=".\Headers" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="Sources\Automated\Automated.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources\Basic\Basic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources\Console\Console.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources\Framework\CUError.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources\Framework\MyMem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources\Framework\TestDB.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources\Framework\TestRun.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources\Framework\Util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Headers\Automated.h" />
+		<Unit filename="Headers\Basic.h" />
+		<Unit filename="Headers\Console.h" />
+		<Unit filename="Headers\CUError.h" />
+		<Unit filename="Headers\CUnit.h" />
+		<Unit filename="Headers\MyMem.h" />
+		<Unit filename="Headers\TestDB.h" />
+		<Unit filename="Headers\TestRun.h" />
+		<Unit filename="Headers\Util.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

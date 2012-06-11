@@ -1,0 +1,241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>LynxArrayList: LynxArrayList.h源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript">
+$(document).ready(initResizable);
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- 制作者 Doxygen 1.7.4 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+--></script>
+<div id="top">
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">LynxArrayList</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+</div>
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+  initNavTree('_lynx_array_list_8h.html','');
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle">
+<div class="title">LynxArrayList.h</div>  </div>
+</div>
+<div class="contents">
+<a href="_lynx_array_list_8h.html">浏览该文件的文档。</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 
+<a name="l00210"></a>00210 <span class="preprocessor">#ifndef LYNXARRAYLIST_H_INCLUDED</span>
+<a name="l00211"></a>00211 <span class="preprocessor"></span><span class="preprocessor">#define LYNXARRAYLIST_H_INCLUDED</span>
+<a name="l00212"></a>00212 <span class="preprocessor"></span>
+<a name="l00213"></a>00213 <span class="preprocessor">#include &quot;Common.h&quot;</span>
+<a name="l00214"></a>00214 
+<a name="l00215"></a>00215 <span class="preprocessor">#ifdef __cplusplus</span>
+<a name="l00216"></a>00216 <span class="preprocessor"></span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {
+<a name="l00217"></a>00217 <span class="preprocessor">#endif</span>
+<a name="l00218"></a>00218 <span class="preprocessor"></span>
+<a name="l00219"></a>00219 <span class="preprocessor">#include &lt;stdio.h&gt;</span>
+<a name="l00220"></a>00220 
+<a name="l00221"></a><a class="code" href="struct_____lynx_array_list.html">00221</a>     <span class="keyword">struct </span><a class="code" href="struct_____lynx_array_list.html" title="定义了LynxArrayList的数据结构 用户不应该直接操作这个结构体">__LynxArrayList</a>
+<a name="l00222"></a>00222     {
+<a name="l00223"></a><a class="code" href="struct_____lynx_array_list.html#aab4b241dab7cae38603d81e069c0d582">00223</a>         <span class="keywordtype">void</span> *<a class="code" href="struct_____lynx_array_list.html#aab4b241dab7cae38603d81e069c0d582">data</a>;         
+<a name="l00224"></a><a class="code" href="struct_____lynx_array_list.html#abddcb41e7347a50e35e6841379d4c04b">00224</a>         <span class="keywordtype">long</span> <a class="code" href="struct_____lynx_array_list.html#abddcb41e7347a50e35e6841379d4c04b">length</a>;        
+<a name="l00225"></a><a class="code" href="struct_____lynx_array_list.html#a7eda2b6ebe19d8c5e10368a6bdb03b3b">00225</a>         <span class="keywordtype">long</span> <a class="code" href="struct_____lynx_array_list.html#a7eda2b6ebe19d8c5e10368a6bdb03b3b">maxLength</a>;     
+<a name="l00226"></a><a class="code" href="struct_____lynx_array_list.html#a646d756f97b2cc49256f25ec06dbbe0f">00226</a>         <span class="keywordtype">long</span> <a class="code" href="struct_____lynx_array_list.html#a646d756f97b2cc49256f25ec06dbbe0f">increaseStep</a>;  
+<a name="l00227"></a><a class="code" href="struct_____lynx_array_list.html#ab43f26f736328748d3c4bdec2fe38ef1">00227</a>         BOOL <a class="code" href="struct_____lynx_array_list.html#ab43f26f736328748d3c4bdec2fe38ef1">sorted</a>;        
+<a name="l00228"></a>00228     };
+<a name="l00229"></a>00229 
+<a name="l00230"></a><a class="code" href="_lynx_array_list_8h.html#a8110647d15eb54cefe381370322b81ac">00230</a>     <span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="struct_____lynx_array_list.html" title="定义了LynxArrayList的数据结构 用户不应该直接操作这个结构体">__LynxArrayList</a> *<a class="code" href="_lynx_array_list_8h.html#a8110647d15eb54cefe381370322b81ac" title="将指向数据结构的指针定义为LynxArrayList类型。 这样定以后使用者的使用方式将大大轻松">LynxArrayList</a>;
+<a name="l00231"></a>00231 
+<a name="l00232"></a>00232     <span class="keywordtype">void</span> <a class="code" href="_lynx_array_list_8h.html#abb2791237d5eb71b50be10fa907f17dc" title="初始化一个数组线性表的指针，如果该指针原本指向一 处保留的数据，将失去对该数据的指向。">LynxArrayListInit</a> (LynxArrayList *myArrayList,
+<a name="l00233"></a>00233                             <span class="keywordtype">long</span> <a class="code" href="struct_____lynx_array_list.html#a646d756f97b2cc49256f25ec06dbbe0f">increaseStep</a>
+<a name="l00234"></a>00234                            );
+<a name="l00235"></a>00235 
+<a name="l00236"></a>00236     <span class="keywordtype">void</span> <a class="code" href="_lynx_array_list_8h.html#a6769bd936e9ca94371221a641f8701a2" title="删除一个数组线性表指针指向的数据结构，存储的元素将使 用freeElement函数释放掉空间。">LynxArrayListDestroy</a> (LynxArrayList myArrayList,
+<a name="l00237"></a>00237                                BOOL (*freeElement) (<span class="keywordtype">void</span> *elem)
+<a name="l00238"></a>00238                               );
+<a name="l00239"></a>00239 
+<a name="l00240"></a>00240     <span class="keywordtype">void</span> <a class="code" href="_lynx_array_list_8h.html#a7af9ec74990ac7aae81348796505d0e8" title="清空一个数组线性表指针中的元素。存储的元素将使用 freeElement函数释放掉空间。">LynxArrayListClear</a> (LynxArrayList myArrayList,
+<a name="l00241"></a>00241                              BOOL (*freeElement) (<span class="keywordtype">void</span> *elem)
+<a name="l00242"></a>00242                             );
+<a name="l00243"></a>00243 
+<a name="l00244"></a>00244     <span class="keywordtype">long</span> <a class="code" href="_lynx_array_list_8h.html#ae18ab15f156110c7abc40570ba168ce8" title="获得整个线性表的长度">LynxArrayListLength</a> (LynxArrayList myArrayList);
+<a name="l00245"></a>00245 
+<a name="l00246"></a>00246     BOOL <a class="code" href="_lynx_array_list_8h.html#a7c995eee8178c96bde4978279362dc77" title="判断数组线性表是否为空">LynxArrayListIsEmpty</a> (LynxArrayList myArrayList);
+<a name="l00247"></a>00247 
+<a name="l00248"></a>00248     <span class="keywordtype">void</span> *<a class="code" href="_lynx_array_list_8h.html#a53fcb4f5bd9ee9741bd48f01a852d821" title="从数组线性表中获得第position个元素">LynxArrayListGetElem</a> (LynxArrayList myArrayList,
+<a name="l00249"></a>00249                                 <span class="keywordtype">long</span> position
+<a name="l00250"></a>00250                                );
+<a name="l00251"></a>00251 
+<a name="l00252"></a>00252     <span class="keywordtype">long</span> <a class="code" href="_lynx_array_list_8h.html#a4b8af1965ee049477d92068d23dfdfe9" title="根据elem的值，定位与elem相等的元素在线性表的位置。">LynxArrayListLocateElem</a> (LynxArrayList myArrayList,
+<a name="l00253"></a>00253                                   <span class="keywordtype">void</span> *elem,
+<a name="l00254"></a>00254                                   BOOL (*compare)(<span class="keywordtype">void</span> *elema,
+<a name="l00255"></a>00255                                           <span class="keywordtype">void</span> *elemb
+<a name="l00256"></a>00256                                                  )
+<a name="l00257"></a>00257                                  );
+<a name="l00258"></a>00258 
+<a name="l00259"></a>00259     BOOL <a class="code" href="_lynx_array_list_8h.html#a24026c1470e4db9522343fee9178884c" title="在数组线性表的第position的位置插入一个元素">LynxArrayListInsert</a> (LynxArrayList myArrayList,
+<a name="l00260"></a>00260                               <span class="keywordtype">long</span> position,
+<a name="l00261"></a>00261                               <span class="keywordtype">void</span> *elem
+<a name="l00262"></a>00262                              );
+<a name="l00263"></a>00263 
+<a name="l00264"></a>00264     <span class="keywordtype">void</span> *<a class="code" href="_lynx_array_list_8h.html#aa3eb80a645db303b214bc077475b6308" title="Opens a file descriptor.">LynxArrayListGetAndDelete</a> (LynxArrayList myArrayList,
+<a name="l00265"></a>00265                                      <span class="keywordtype">long</span> position
+<a name="l00266"></a>00266                                     );
+<a name="l00267"></a>00267 
+<a name="l00268"></a>00268     <span class="keywordtype">long</span> <a class="code" href="_lynx_array_list_8h.html#a38b65e20ee941b74801e9f06db771bf9" title="对整个数组的所有元素调用visit函数访问">LynxArrayListTraverse</a> (LynxArrayList myArrayList,
+<a name="l00269"></a>00269                                 <span class="keywordtype">void</span> (*visit)(<span class="keywordtype">void</span> *returns)
+<a name="l00270"></a>00270                                );
+<a name="l00271"></a>00271 
+<a name="l00272"></a>00272     <span class="keywordtype">void</span> <a class="code" href="_lynx_array_list_8h.html#a26152a1cf294112a5ca439f1b371a663" title="对整个数组的所有元素进行快速排序">LynxArrayListQsort</a> (LynxArrayList myArrayList,
+<a name="l00273"></a>00273                              BOOL (*compare)(<span class="keywordtype">void</span> *elema,
+<a name="l00274"></a>00274                                           <span class="keywordtype">void</span> *elemb
+<a name="l00275"></a>00275                                                  )
+<a name="l00276"></a>00276                             );
+<a name="l00277"></a>00277 
+<a name="l00278"></a>00278     <span class="keywordtype">void</span> *<a class="code" href="_lynx_array_list_8h.html#ab44faf6c268d3c23286413380c62b499" title="对整个数组的所有元素进行二分查找。之前必须排序">LynxArrayListBsearch</a>  (LynxArrayList myArrayList,
+<a name="l00279"></a>00279                                  BOOL (*compare)(<span class="keywordtype">void</span> *elema,
+<a name="l00280"></a>00280                                           <span class="keywordtype">void</span> *elemb
+<a name="l00281"></a>00281                                                  )
+<a name="l00282"></a>00282                                 );
+<a name="l00283"></a>00283 
+<a name="l00284"></a><a class="code" href="_lynx_array_list_8h.html#a67db0e76742fe6251eb045ef112f0a6e">00284</a>     <span class="keyword">typedef</span> void (*<a class="code" href="_lynx_array_list_8h.html#a67db0e76742fe6251eb045ef112f0a6e" title="定义了LynxArrayListInit的类型，方便函数指针转换">tLynxArrayListInit</a>) (LynxArrayList *myArrayList,
+<a name="l00285"></a>00285                             <span class="keywordtype">long</span> <a class="code" href="struct_____lynx_array_list.html#a646d756f97b2cc49256f25ec06dbbe0f">increaseStep</a>
+<a name="l00286"></a>00286                            );
+<a name="l00287"></a>00287 
+<a name="l00288"></a><a class="code" href="_lynx_array_list_8h.html#a079d81270a89c1108e0c46c666e0b6c9">00288</a>     <span class="keyword">typedef</span> void (*<a class="code" href="_lynx_array_list_8h.html#a079d81270a89c1108e0c46c666e0b6c9" title="定义了LynxArrayListDestroy的类型，方便函数指针转换">tLynxArrayListDestroy</a>) (LynxArrayList myArrayList,
+<a name="l00289"></a>00289                                BOOL (*freeElement) (<span class="keywordtype">void</span> *elem)
+<a name="l00290"></a>00290                               );
+<a name="l00291"></a>00291 
+<a name="l00292"></a><a class="code" href="_lynx_array_list_8h.html#a05573c80a7f82dd7fcaf1185d3b43316">00292</a>     <span class="keyword">typedef</span> void (*<a class="code" href="_lynx_array_list_8h.html#a05573c80a7f82dd7fcaf1185d3b43316">tLynxArrayListClear</a>) (LynxArrayList myArrayList,
+<a name="l00293"></a>00293                              BOOL (*freeElement) (<span class="keywordtype">void</span> *elem)
+<a name="l00294"></a>00294                             );
+<a name="l00295"></a>00295 
+<a name="l00296"></a><a class="code" href="_lynx_array_list_8h.html#a853b43e603b48f3cd6b72ae9e1097f83">00296</a>     <span class="keyword">typedef</span> long (*<a class="code" href="_lynx_array_list_8h.html#a853b43e603b48f3cd6b72ae9e1097f83" title="定义了LynxArrayListLength的类型，方便函数指针转换">tLynxArrayListLength</a>) (LynxArrayList myArrayList);
+<a name="l00297"></a>00297 
+<a name="l00298"></a><a class="code" href="_lynx_array_list_8h.html#abc9ed21abf2a6c0ec41e85d2bdb91953">00298</a>     <span class="keyword">typedef</span> BOOL (*<a class="code" href="_lynx_array_list_8h.html#abc9ed21abf2a6c0ec41e85d2bdb91953" title="定义了LynxArrayListIsEmpty的类型，方便函数指针转换">tLynxArrayListIsEmpty</a>) (LynxArrayList myArrayList);
+<a name="l00299"></a>00299 
+<a name="l00300"></a><a class="code" href="_lynx_array_list_8h.html#affec4652b8b6679126cf441f03fd1dd1">00300</a>     <span class="keyword">typedef</span> <span class="keywordtype">void</span> *(*tLynxArrayListGetElem) (LynxArrayList myArrayList,
+<a name="l00301"></a>00301                                 <span class="keywordtype">long</span> position
+<a name="l00302"></a>00302                                );
+<a name="l00303"></a>00303 
+<a name="l00304"></a><a class="code" href="_lynx_array_list_8h.html#a5d697a5c0e926a2b8281dd01eafc0290">00304</a>     <span class="keyword">typedef</span> long (*<a class="code" href="_lynx_array_list_8h.html#a5d697a5c0e926a2b8281dd01eafc0290" title="定义了LynxArrayListLocateElem的类型，方便函数指针转换">tLynxArrayListLocateElem</a>) (LynxArrayList myArrayList,
+<a name="l00305"></a>00305                                   <span class="keywordtype">void</span> *elem,
+<a name="l00306"></a>00306                                   BOOL (*compare)(<span class="keywordtype">void</span> *elema,
+<a name="l00307"></a>00307                                           <span class="keywordtype">void</span> *elemb
+<a name="l00308"></a>00308                                                  )
+<a name="l00309"></a>00309                                  );
+<a name="l00310"></a>00310 
+<a name="l00311"></a><a class="code" href="_lynx_array_list_8h.html#ad7bea242da794b620880ca39eaa0cd9f">00311</a>     <span class="keyword">typedef</span> BOOL (*<a class="code" href="_lynx_array_list_8h.html#ad7bea242da794b620880ca39eaa0cd9f" title="定义了LynxArrayListInsert的类型，方便函数指针转换">tLynxArrayListInsert</a>) (LynxArrayList myArrayList,
+<a name="l00312"></a>00312                               <span class="keywordtype">long</span> position,
+<a name="l00313"></a>00313                               <span class="keywordtype">void</span> *elem
+<a name="l00314"></a>00314                              );
+<a name="l00315"></a>00315 
+<a name="l00316"></a><a class="code" href="_lynx_array_list_8h.html#a8c460256d862bf2f81f487a01f832b8d">00316</a>     <span class="keyword">typedef</span> <span class="keywordtype">void</span> *(*tLynxArrayListGetAndDelete) (LynxArrayList myArrayList,
+<a name="l00317"></a>00317                                      <span class="keywordtype">long</span> position
+<a name="l00318"></a>00318                                     );
+<a name="l00319"></a>00319 
+<a name="l00320"></a><a class="code" href="_lynx_array_list_8h.html#a3d2beed18783ff1dd89891c84aa9e71b">00320</a>     <span class="keyword">typedef</span> long (*<a class="code" href="_lynx_array_list_8h.html#a3d2beed18783ff1dd89891c84aa9e71b" title="定义了LynxArrayListTraverse的类型，方便函数指针转换">tLynxArrayListTraverse</a>) (LynxArrayList myArrayList,
+<a name="l00321"></a>00321                                 void (*visit)(<span class="keywordtype">void</span> *returns)
+<a name="l00322"></a>00322                                );
+<a name="l00323"></a>00323 
+<a name="l00324"></a><a class="code" href="_lynx_array_list_8h.html#ac0a79697c012473ad21df0b5a6e84bf9">00324</a>     <span class="keyword">typedef</span> void (*<a class="code" href="_lynx_array_list_8h.html#ac0a79697c012473ad21df0b5a6e84bf9" title="定义了LynxArrayListQsort的类型，方便函数指针转换">tLynxArrayListQsort</a>) (LynxArrayList myArrayList,
+<a name="l00325"></a>00325                              BOOL (*compare)(<span class="keywordtype">void</span> *elema,
+<a name="l00326"></a>00326                                           <span class="keywordtype">void</span> *elemb
+<a name="l00327"></a>00327                                                  )
+<a name="l00328"></a>00328                             );
+<a name="l00329"></a>00329 
+<a name="l00330"></a><a class="code" href="_lynx_array_list_8h.html#ab88de682cd3ee09d8311c8528f69b00a">00330</a>     <span class="keyword">typedef</span> <span class="keywordtype">void</span> *(*tLynxArrayListBsearch)  (LynxArrayList myArrayList,
+<a name="l00331"></a>00331                                  BOOL (*compare)(<span class="keywordtype">void</span> *elema,
+<a name="l00332"></a>00332                                           <span class="keywordtype">void</span> *elemb
+<a name="l00333"></a>00333                                                  )
+<a name="l00334"></a>00334                                 );
+<a name="l00335"></a>00335 
+<a name="l00336"></a>00336 <span class="preprocessor">#ifdef __cplusplus</span>
+<a name="l00337"></a>00337 <span class="preprocessor"></span>}
+<a name="l00338"></a>00338 <span class="preprocessor">#endif</span>
+<a name="l00339"></a>00339 <span class="preprocessor"></span>
+<a name="l00340"></a>00340 <span class="preprocessor">#endif // LYNXARRAYLIST_H_INCLUDED</span>
+</pre></div></div>
+</div>
+  <div id="nav-path" class="navpath">
+    <ul>
+      <li class="navelem"><a class="el" href="_lynx_array_list_8h.html">LynxArrayList.h</a>      </li>
+      <li class="footer">Generated at 2011年十月18日 星期二 19:40:11 for LynxArrayList by&#160;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.4 </li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>宏定义</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+
+</body>
+</html>

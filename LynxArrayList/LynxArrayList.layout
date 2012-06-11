@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="Src\LynxArrayListDestroy.c" open="0" top="0" tabpos="0">
+		<Cursor position="238" topLine="0" />
+	</File>
+	<File name="Src\LynxArrayListInit.c" open="0" top="0" tabpos="1">
+		<Cursor position="145" topLine="0" />
+	</File>
+	<File name="include\Common.h" open="0" top="0" tabpos="0">
+		<Cursor position="540" topLine="2" />
+	</File>
+	<File name="include\LynxArrayList.h" open="0" top="0" tabpos="1">
+		<Cursor position="10545" topLine="62" />
+	</File>
+	<File name="version.h" open="0" top="0" tabpos="0">
+		<Cursor position="461" topLine="15" />
+	</File>
+</CodeBlocks_layout_file>
