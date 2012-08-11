@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_workspace_file>
 	<Workspace title="LynxDataStructure">
-		<Project filename="LynxArrayList/LynxArrayList.cbp" active="1" />
+		<Project filename="LynxArrayList/LynxArrayList.cbp" />
 		<Project filename="LynxTest/LynxTest.cbp" />
 		<Project filename="Cunit/CUnit.cbp" />
+		<Project filename="../on-the-going/SourceCodeCounter/src/LynxSrcCounter/LynxSrcCounter.cbp" active="1" />
 	</Workspace>
 </CodeBlocks_workspace_file>

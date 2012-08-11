@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Debug" />
-	<File name="Src\LynxArrayListDestroy.c" open="0" top="0" tabpos="0">
-		<Cursor position="238" topLine="0" />
+	<File name="version.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="461" topLine="15" />
 	</File>
-	<File name="Src\LynxArrayListInit.c" open="0" top="0" tabpos="1">
-		<Cursor position="145" topLine="0" />
+	<File name="include\LynxArrayList.h" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="10234" topLine="209" />
 	</File>
-	<File name="include\Common.h" open="0" top="0" tabpos="0">
-		<Cursor position="540" topLine="2" />
+	<File name="include\Common.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="389" topLine="0" />
 	</File>
-	<File name="include\LynxArrayList.h" open="0" top="0" tabpos="1">
-		<Cursor position="10545" topLine="62" />
+	<File name="Src\LynxArrayListInit.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="145" topLine="0" />
 	</File>
-	<File name="version.h" open="0" top="0" tabpos="0">
-		<Cursor position="461" topLine="15" />
+	<File name="Src\LynxArrayListDestroy.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="238" topLine="0" />
 	</File>
 </CodeBlocks_layout_file>
