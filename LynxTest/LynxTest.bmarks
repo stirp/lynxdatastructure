@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<BrowseTracker_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="test.c" open="0" top="0" tabpos="2">
+		<Cursor position="1218" topLine="12" />
+	</File>
+	<File name="main.c" open="0" top="0" tabpos="1">
+		<Cursor position="226" topLine="0" />
+	</File>
+	<File name="LynxArrayList.h" open="0" top="0" tabpos="3">
+		<Cursor position="7901" topLine="164" />
+	</File>
+	<File name="LynxArrayList.c" open="0" top="0" tabpos="3">
+		<Cursor position="2944" topLine="55" />
+	</File>
+	<File name="Common.h" open="0" top="0" tabpos="0">
+		<Cursor position="511" topLine="13" />
+	</File>
+	<File name="ArrayListTest.c" open="0" top="0" tabpos="3">
+		<Cursor position="1509" topLine="12" />
+	</File>
+</BrowseTracker_layout_file>
